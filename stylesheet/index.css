@@ -1,0 +1,102 @@
+.backdrop{
+	width:800px;
+	height:800px;
+	margin:50px auto;
+	border: 1px solid #CECBC6;
+    background-image: url(../img/2.jpg);
+	position: relative;
+}
+.hudie{
+   width:200px;
+   height:200px;
+   position:absolute;
+   bottom:0px;
+   right:0px;
+  
+}
+#sence{
+	width:600px;
+	height:600px;
+	margin:80px auto;
+    background:rgb(255,255,32,0.5);
+	position: relative;
+}
+.block{
+	float:left;
+	margin:0 1px 1px 0;
+	position: relative;
+	border-radius:50%;
+    z-index: 8884;
+    text-align: center;
+	
+}
+.start{
+	width:200px;
+	height:200px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top:280px;
+	left:300px;
+	background: url('../img/1.png');
+}
+.five{
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #DAD3D3;
+	border-radius: 5px;
+	box-shadow: 1px 1px solid #ccc;
+}
+.white{
+	width:200px;
+	height:260px;
+	position: absolute;
+	left:0;
+	top:150px;
+	cursor: pointer;
+
+}
+.black{
+	width: 200px;
+	height:260px;
+	position: absolute;
+	right:0;
+	top:150px;
+	cursor: pointer;
+}
+.sta{
+	width:80px;
+	height:30px;
+	border-radius: 5px;
+    margin:10px auto;
+    background: #E68383;
+    text-align: center;
+    color:#FFFFFF;
+    line-height: 30px;
+    font-weight: 600;
+}
+.tu1{
+	width: 150px;
+	height:150px;
+	margin:0 auto;
+	background: url(../img/gaoxin.gif);
+}
+.tu2{
+	width: 150px;
+	height:150px;
+	margin:0 auto;
+	background: url(../img/sikao.gif);
+}
+
+.reset{
+	width:80px;
+    height:30px;
+    border-radius: 5px;
+    margin:10px auto;
+    background: #E68383;
+    text-align: center;
+    color:#FFFFFF;
+    line-height: 30px;
+    font-weight: 600;
+}
